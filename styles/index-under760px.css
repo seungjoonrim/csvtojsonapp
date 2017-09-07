@@ -1,0 +1,66 @@
+* {
+	/*border: 2px solid red;*/
+	/*background-color: red;*/
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+table {
+	width: 100%;
+	border: none;
+	table-layout: fixed;
+}
+
+#header {
+	box-sizing: border-box;
+	height: 44px;
+	line-height: 44px;
+	position: fixed;
+	top: 0;
+	text-align: center;
+	width: 100%;
+	background: #395870;
+	background: linear-gradient(#49708f, #293f50);
+	color: white;
+	z-index: 1;
+}
+
+#table-header {
+	position: relative;
+	top: 13px;
+}
+
+thead {
+	display: none;
+}
+
+tr {
+	position: relative;
+	top: 44px;
+}
+
+td {
+	display: block;
+}
+
+.primary {
+	display: table-cell;
+}
+
+.primary:after {
+	content: "";
+	display: block;
+	position: absolute;
+}
+
+td:nth-of-type(n+4) {
+	display: none;
+}
+
+#map {
+	display: none;
+}
