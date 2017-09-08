@@ -1,17 +1,12 @@
 ### Overview:
-This repository is a submission for the ICX Media Engineering Test.
+This repository is an app that takes a .csv file, converts it to .json,
+and outputs on the web page with the google maps API.
 Included in this README is directions on how to run this program.
 Languages used:
 - Python
 - JavaScript
 - HTML
 - CSS
-
-### The Problem:
-Take the .csv file in the data/ directory and productionize a
-webservice to read in the CSV file and output it in JSON. Furthermore,
-once the data is in a JSON format, present the data in a creative
-way to the end-user.
 
 ### Requirements:
 - Windows OS
